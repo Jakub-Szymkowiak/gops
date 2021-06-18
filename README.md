@@ -1,6 +1,6 @@
 # Game of Pure Strategy 
 
-This was created as a solution to a Linear Programming assigment at University of Warsaw. 
+This was created as a solution to a Linear Programming assigment at the University of Warsaw. 
 It is an attempt to recreate reasoning used in [Computer Solution to the GOPS](https://www.econstor.eu/obitstream/10419/98554/1/749748680.pdf) in Python.
 
 The script recursively calculates the payoff matrix for [GOPS](https://en.wikipedia.org/wiki/Goofspiel) and then uses linear programming solver provided in `` scipy.optimize`` to find the optimal strategy at the first move.
