@@ -6,7 +6,7 @@ from scipy.optimize import linprog
 # number of cards used to play 
 N = 6
 
-# no point in running N > 6
+# running N > 6 might take a while
 if N > 6:
 	N = 6
 
