@@ -47,7 +47,8 @@ def f (state):
             return results[state_str_symm]
         else:
             calculated.add(state_str)
-
+		
+	    # f is the average of f_k 
             s = 0
             for k in range(0, len(state["P"])):
                 s += f_k(state, k)
